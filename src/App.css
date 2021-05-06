@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	height: auto;
+	width: 100%;
+	background-color: #1e6f5c;
+	color: white;
+	font-size: 32px;
+	padding: 10px;
+}
+
+ul > li {
+	text-decoration: none;
+	color: inherit;
+	font-size: 28px;
+	float: right;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+}
+
+.navLink {
+	text-decoration: none;
+	list-style: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.card {
+	text-align: center;
+	margin: 20px;
+	border: 1px;
+	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+	height: 200px;
+	width: 200px;
+}
+
+.imgg,
+.card > img {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border: 1px solid green;
+	border-radius: 500px;
+	margin-bottom: 10px;
+}
+
+h3 + button {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	height: 30px;
+	width: 40px;
+}
+
+button > a {
+	color: white;
+	text-decoration: none;
+}
+
+.gridStyle {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	margin: 10px auto;
+}
+
+form > input {
+	height: 55px;
+	font-size: 21px;
+	margin: 15px;
+	width: 100%;
+	display: block;
+	box-shadow: 2px 2px 2px black;
+	margin: 10px auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	background-color: black;
+	box-shadow: 2px 2px 2px gray;
+	color: white;
+	right: 115px;
+	position: relative;
+	width: 60%;
+}
+
+.btn-grey {
+	background-color: gray;
+	height: 40px;
+	border-radius: 0;
+	margin-bottom: 10px;
+	height: 55px;
+	margin: 10px 20%;
+	text-align: center;
+}
+
+.btn-dark {
+	display: inline-block;
+	height: 40px;
+	border-radius: 0;
+	margin: 10px;
+	width: auto;
+	padding: 10px;
+}
+
+.alert {
+	width: 60%;
+	padding: 20px;
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	margin-left: 0;
+	margin: 0 20%;
+}
+
+.userCard {
+	padding: 30px;
+	text-align: center;
+	margin: 20px;
+	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+	padding-bottom: 20px;
+}
+
+.grid-2 {
+	grid-template-columns: 1fr;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+}
+
+.centerAll {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.repoCard {
+	padding: 30px;
+	text-align: center;
+	margin: 20px;
+	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+	padding-bottom: 20px;
+	width: auto;
+	display: inline-block;
+}
